@@ -74,15 +74,7 @@ root
 ## Feature vector csv files explanation
 1. For each bag, there is a .csv file where each row contains the feature of an instance. The .csv is named as "_bagID_.csv" and put into a folder named "_dataset-name_/_category_/".  
 
-<div align="center">
-  <img src="thumbnails/bag.png" width="700px" />
-</div>  
-
 2. There is a "_dataset-name_.csv" file with two columns where the first column contains the paths to all _bagID_.csv files, and the second column contains the bag labels.  
-
-<div align="center">
-  <img src="thumbnails/bags.png" width="700px" />
-</div>  
 
 3. Labels.
 > For binary classifier, use `1` for positive bags and `0` for negative bags. Use `--num_classes=1` at training.  
